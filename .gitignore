@@ -2,9 +2,6 @@
 sftp.json
 !package.json
 node_modules
-*.html
-!index.html
-!dtd.html
 *.txt
 !robots.txt
 webpack.config.js

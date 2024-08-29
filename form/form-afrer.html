@@ -1,0 +1,774 @@
+<!-- 変更後 -->
+<div
+  id="c11"
+  class="form_wrap entry bxi-block-form"
+>
+  <dl class="email dl0">
+    <dt>
+      メールアドレス
+      <label class="bxi-block-form-required">※</label>
+    </dt>
+    <dd class="email">
+      <div>
+        <input
+          type="text"
+          name="v[0][0]"
+          value=""
+          maxlength="100"
+        />
+      </div>
+      <div>
+        <input
+          type="text"
+          name="v[0][1]"
+          value=""
+          placeholder="確認の為もう一度ご入力ください。"
+          maxlength="100"
+        />
+      </div>
+      <div class="bxi-block-form-annotation">注釈注釈</div>
+      <input
+        type="hidden"
+        name="t[0]"
+        value="email"
+      />
+      <input
+        type="hidden"
+        name="s[0]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="p[0]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="m[0]"
+        value="1"
+      />
+      <input
+        type="hidden"
+        name="n[0]"
+        value="メールアドレス"
+      />
+      <input
+        type="hidden"
+        name="r[0]"
+        value=""
+      />
+    </dd>
+  </dl>
+  <dl class="name dl1">
+    <dt>
+      宛名
+      <label class="bxi-block-form-required">※</label>
+    </dt>
+    <dd class="name">
+      <input
+        type="text"
+        name="v[1]"
+        value=""
+        maxlength="100"
+      />
+      <div class="bxi-block-form-annotation">注釈注釈</div>
+      <input
+        type="hidden"
+        name="t[1]"
+        value="name"
+      />
+      <input
+        type="hidden"
+        name="s[1]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="p[1]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="m[1]"
+        value="1"
+      />
+      <input
+        type="hidden"
+        name="n[1]"
+        value="宛名"
+      />
+      <input
+        type="hidden"
+        name="r[1]"
+        value=""
+      />
+    </dd>
+  </dl>
+  <dl class="kana dl2">
+    <dt>
+      宛名カナ
+      <label class="bxi-block-form-required">※</label>
+    </dt>
+    <dd class="kana">
+      <input
+        type="text"
+        name="v[2]"
+        value=""
+        maxlength="100"
+      />
+      <div class="bxi-block-form-annotation">注釈注釈</div>
+      <input
+        type="hidden"
+        name="t[2]"
+        value="kana"
+      />
+      <input
+        type="hidden"
+        name="s[2]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="p[2]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="m[2]"
+        value="1"
+      />
+      <input
+        type="hidden"
+        name="n[2]"
+        value="宛名カナ"
+      />
+      <input
+        type="hidden"
+        name="r[2]"
+        value=""
+      />
+    </dd>
+  </dl>
+  <dl class="tel dl3">
+    <dt>
+      電話番号
+      <label class="bxi-block-form-required">※</label>
+    </dt>
+    <dd class="tel">
+      <input
+        type="text"
+        name="v[3]"
+        value=""
+        placeholder="00-0000-0000"
+        maxlength="13"
+      />
+      <div class="bxi-block-form-annotation">注釈注釈</div>
+      <input
+        type="hidden"
+        name="t[3]"
+        value="tel"
+      />
+      <input
+        type="hidden"
+        name="s[3]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="p[3]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="m[3]"
+        value="1"
+      />
+      <input
+        type="hidden"
+        name="n[3]"
+        value="電話番号"
+      />
+      <input
+        type="hidden"
+        name="r[3]"
+        value=""
+      />
+    </dd>
+  </dl>
+  <dl class="addr dl4">
+    <dt>
+      住所
+      <label class="bxi-block-form-required">※</label>
+    </dt>
+    <dd class="addr">
+      <div>
+        <span>〒</span>
+        <input
+          type="text"
+          name="v[4][0]"
+          value=""
+          placeholder="000-0000"
+          maxlength="8"
+          onkeyup="AjaxZip3.zip2addr(this,'','v[4][1]','v[4][2]')"
+        />
+      </div>
+      <div>
+        <select name="v[4][1]">
+          <option value="">都道府県</option>
+          <option value="北海道">北海道</option>
+          <option value="青森県">青森県</option>
+          <option value="岩手県">岩手県</option>
+          <option value="宮城県">宮城県</option>
+          <option value="秋田県">秋田県</option>
+          <option value="山形県">山形県</option>
+          <option value="福島県">福島県</option>
+          <option value="茨城県">茨城県</option>
+          <option value="栃木県">栃木県</option>
+          <option value="群馬県">群馬県</option>
+          <option value="埼玉県">埼玉県</option>
+          <option value="千葉県">千葉県</option>
+          <option value="東京都">東京都</option>
+          <option value="神奈川県">神奈川県</option>
+          <option value="新潟県">新潟県</option>
+          <option value="富山県">富山県</option>
+          <option value="石川県">石川県</option>
+          <option value="福井県">福井県</option>
+          <option value="山梨県">山梨県</option>
+          <option value="長野県">長野県</option>
+          <option value="岐阜県">岐阜県</option>
+          <option value="静岡県">静岡県</option>
+          <option value="愛知県">愛知県</option>
+          <option value="三重県">三重県</option>
+          <option value="滋賀県">滋賀県</option>
+          <option value="京都府">京都府</option>
+          <option value="大阪府">大阪府</option>
+          <option value="兵庫県">兵庫県</option>
+          <option value="奈良県">奈良県</option>
+          <option value="和歌山県">和歌山県</option>
+          <option value="鳥取県">鳥取県</option>
+          <option value="島根県">島根県</option>
+          <option value="岡山県">岡山県</option>
+          <option value="広島県">広島県</option>
+          <option value="山口県">山口県</option>
+          <option value="徳島県">徳島県</option>
+          <option value="香川県">香川県</option>
+          <option value="愛媛県">愛媛県</option>
+          <option value="高知県">高知県</option>
+          <option value="福岡県">福岡県</option>
+          <option value="佐賀県">佐賀県</option>
+          <option value="長崎県">長崎県</option>
+          <option value="熊本県">熊本県</option>
+          <option value="大分県">大分県</option>
+          <option value="宮崎県">宮崎県</option>
+          <option value="鹿児島県">鹿児島県</option>
+          <option value="沖縄県">沖縄県</option>
+        </select>
+      </div>
+      <div>
+        <input
+          type="text"
+          name="v[4][2]"
+          value=""
+          placeholder="市区町村"
+          maxlength="100"
+        />
+      </div>
+      <div>
+        <input
+          type="text"
+          name="v[4][3]"
+          value=""
+          placeholder="番地・建物"
+          maxlength="100"
+        />
+      </div>
+      <div class="bxi-block-form-annotation">注釈注釈</div>
+      <input
+        type="hidden"
+        name="t[4]"
+        value="addr"
+      />
+      <input
+        type="hidden"
+        name="s[4]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="p[4]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="m[4]"
+        value="1"
+      />
+      <input
+        type="hidden"
+        name="n[4]"
+        value="住所"
+      />
+      <input
+        type="hidden"
+        name="r[4]"
+        value=""
+      />
+    </dd>
+  </dl>
+  <dl class="date dl5">
+    <dt>
+      日付
+      <label class="bxi-block-form-required">※</label>
+    </dt>
+    <dd class="date">
+      <div>
+        <input
+          type="text"
+          name="v[5][0]"
+          value=""
+          placeholder="0000"
+          maxlength="4"
+        />
+        <span>年</span>
+      </div>
+      <div>
+        <select name="v[5][1]">
+          <option></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+        <span>月</span>
+      </div>
+      <div>
+        <select name="v[5][2]">
+          <option></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        <span>日</span>
+      </div>
+      <div class="bxi-block-form-annotation">注釈注釈</div>
+      <input
+        type="hidden"
+        name="t[5]"
+        value="date"
+      />
+      <input
+        type="hidden"
+        name="s[5]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="p[5]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="m[5]"
+        value="1"
+      />
+      <input
+        type="hidden"
+        name="n[5]"
+        value="日付"
+      />
+      <input
+        type="hidden"
+        name="r[5]"
+        value=""
+      />
+    </dd>
+  </dl>
+  <dl class="number dl6">
+    <dt>
+      数値
+      <label class="bxi-block-form-required">※</label>
+    </dt>
+    <dd class="number">
+      <span>前</span>
+      <input
+        type="text"
+        name="v[6]"
+        value=""
+        maxlength="9"
+      />
+      <span>後</span>
+      <div>注釈注釈</div>
+      <input
+        type="hidden"
+        name="t[6]"
+        value="number"
+      />
+      <input
+        type="hidden"
+        name="s[6]"
+        value="後"
+      />
+      <input
+        type="hidden"
+        name="p[6]"
+        value="前"
+      />
+      <input
+        type="hidden"
+        name="m[6]"
+        value="1"
+      />
+      <input
+        type="hidden"
+        name="n[6]"
+        value="数値"
+      />
+      <input
+        type="hidden"
+        name="r[6]"
+        value=""
+      />
+    </dd>
+  </dl>
+  <dl class="text dl7">
+    <dt>
+      テキストボックス
+      <label class="bxi-block-form-required">※</label>
+    </dt>
+    <dd class="text">
+      <span>前</span>
+      <input
+        type="text"
+        name="v[7]"
+        value=""
+        maxlength="100"
+      />
+      <span>後</span>
+      <div class="bxi-block-form-annotation">注釈注釈</div>
+      <input
+        type="hidden"
+        name="t[7]"
+        value="text"
+      />
+      <input
+        type="hidden"
+        name="s[7]"
+        value="後"
+      />
+      <input
+        type="hidden"
+        name="p[7]"
+        value="前"
+      />
+      <input
+        type="hidden"
+        name="m[7]"
+        value="1"
+      />
+      <input
+        type="hidden"
+        name="n[7]"
+        value="テキストボックス"
+      />
+      <input
+        type="hidden"
+        name="r[7]"
+        value=""
+      />
+    </dd>
+  </dl>
+  <dl class="radio dl8">
+    <dt>
+      ラジオボタン
+      <label class="bxi-block-form-required">※</label>
+    </dt>
+    <dd class="radio">
+      <label>
+        <input
+          type="radio"
+          name="v[8]"
+          value="項目1"
+          checked=""
+        />
+        項目1
+      </label>
+      <label>
+        <input
+          type="radio"
+          name="v[8]"
+          value="項目2"
+        />
+        項目2
+      </label>
+      <div>注釈注釈</div>
+      <input
+        type="hidden"
+        name="t[8]"
+        value="radio"
+      />
+      <input
+        type="hidden"
+        name="s[8]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="p[8]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="m[8]"
+        value="1"
+      />
+      <input
+        type="hidden"
+        name="n[8]"
+        value="ラジオボタン"
+      />
+      <input
+        type="hidden"
+        name="r[8]"
+        value=""
+      />
+    </dd>
+  </dl>
+  <dl class="checkbox dl9">
+    <dt>
+      チェックボックス
+      <label class="bxi-block-form-required">※</label>
+    </dt>
+    <dd class="checkbox">
+      <label>
+        <input
+          type="checkbox"
+          name="v[9][]"
+          value="項目1"
+        />
+        項目1
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          name="v[9][]"
+          value="項目2"
+        />
+        項目2
+      </label>
+      <div class="bxi-block-form-annotation">注釈注釈</div>
+      <input
+        type="hidden"
+        name="t[9]"
+        value="checkbox"
+      />
+      <input
+        type="hidden"
+        name="s[9]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="p[9]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="m[9]"
+        value="1"
+      />
+      <input
+        type="hidden"
+        name="n[9]"
+        value="チェックボックス"
+      />
+      <input
+        type="hidden"
+        name="r[9]"
+        value=""
+      />
+    </dd>
+  </dl>
+  <dl class="select dl10">
+    <dt>
+      セレクトボックス
+      <label class="bxi-block-form-required">※</label>
+    </dt>
+    <dd class="select">
+      <select name="v[10]">
+        <option value=""></option>
+        <option value="項目1">項目1</option>
+        <option value="項目2">項目2</option>
+      </select>
+      <div>注釈注釈</div>
+      <input
+        type="hidden"
+        name="t[10]"
+        value="select"
+      />
+      <input
+        type="hidden"
+        name="s[10]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="p[10]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="m[10]"
+        value="1"
+      />
+      <input
+        type="hidden"
+        name="n[10]"
+        value="セレクトボックス"
+      />
+      <input
+        type="hidden"
+        name="r[10]"
+        value=""
+      />
+    </dd>
+  </dl>
+  <dl class="textarea dl11">
+    <dt>
+      テキストエリア
+      <label class="bxi-block-form-required">※</label>
+    </dt>
+    <dd class="textarea">
+      <textarea name="v[11]"></textarea>
+      <div class="bxi-block-form-annotation">注釈注釈</div>
+      <input
+        type="hidden"
+        name="t[11]"
+        value="textarea"
+      />
+      <input
+        type="hidden"
+        name="s[11]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="p[11]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="m[11]"
+        value="1"
+      />
+      <input
+        type="hidden"
+        name="n[11]"
+        value="テキストエリア"
+      />
+      <input
+        type="hidden"
+        name="r[11]"
+        value=""
+      />
+    </dd>
+  </dl>
+  <dl
+    class="file dl12"
+    id="upload_12"
+  >
+    <dt>
+      ファイル
+      <label class="bxi-block-form-required">※</label>
+    </dt>
+    <dd class="file">
+      <label for="file_12"></label>
+      <img src="../img/load.gif" />
+      <div class="drop"><span>ここにファイルをドラッグ＆ドロップしてください。</span></div>
+      <div class="filename"><span></span></div>
+      <input
+        type="text"
+        name="v[12]"
+        value=""
+      />
+      <div class="bxi-block-form-annotation">注釈注釈</div>
+      <input
+        type="hidden"
+        name="t[12]"
+        value="file"
+      />
+      <input
+        type="hidden"
+        name="s[12]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="p[12]"
+        value=""
+      />
+      <input
+        type="hidden"
+        name="m[12]"
+        value="1"
+      />
+      <input
+        type="hidden"
+        name="n[12]"
+        value="ファイル"
+      />
+      <input
+        type="hidden"
+        name="r[12]"
+        value=""
+      />
+    </dd>
+  </dl>
+  <p class="annot">
+    <span
+      id="TRANS_ANNOT"
+      class="translate"
+    >
+      ※は必須項目
+    </span>
+    <span></span>
+  </p>
+  <div class="submit">
+    <button class="submit_c bt_confirm">送信内容を確認する</button>
+  </div>
+</div>
