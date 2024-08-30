@@ -204,7 +204,7 @@
       <label class="bxi-block-form-required">※</label>
     </dt>
     <dd class="addr bxi-block-form-dd">
-      <div>
+      <div class="bxi-block-form-addr-number">
         <span>〒</span>
         <input
           type="text"
@@ -215,7 +215,7 @@
           onkeyup="AjaxZip3.zip2addr(this,'','v[4][1]','v[4][2]')"
         />
       </div>
-      <div>
+      <div class="bxi-block-form-addr-prefecture">
         <select name="v[4][1]">
           <option value="">都道府県</option>
           <option value="北海道">北海道</option>
@@ -267,7 +267,7 @@
           <option value="沖縄県">沖縄県</option>
         </select>
       </div>
-      <div>
+      <div class="bxi-block-form-addr-municipalities">
         <input
           type="text"
           name="v[4][2]"
@@ -276,7 +276,7 @@
           maxlength="100"
         />
       </div>
-      <div>
+      <div class="bxi-block-form-addr-street">
         <input
           type="text"
           name="v[4][3]"
@@ -324,7 +324,7 @@
       <label class="bxi-block-form-required">※</label>
     </dt>
     <dd class="date bxi-block-form-dd">
-      <div>
+      <div class="bxi-block-form-date-year">
         <input
           type="text"
           name="v[5][0]"
@@ -332,9 +332,9 @@
           placeholder="0000"
           maxlength="4"
         />
-        <span>年</span>
+        <span class="bxi-block-form-date-unit">年</span>
       </div>
-      <div>
+      <div class="bxi-block-form-date-month">
         <select name="v[5][1]">
           <option></option>
           <option value="1">1</option>
@@ -350,9 +350,9 @@
           <option value="11">11</option>
           <option value="12">12</option>
         </select>
-        <span>月</span>
+        <span class="bxi-block-form-date-unit">月</span>
       </div>
-      <div>
+      <div class="bxi-block-form-date-day">
         <select name="v[5][2]">
           <option></option>
           <option value="1">1</option>
@@ -387,7 +387,7 @@
           <option value="30">30</option>
           <option value="31">31</option>
         </select>
-        <span>日</span>
+        <span class="bxi-block-form-date-unit">日</span>
       </div>
       <div class="bxi-block-form-annotation">注釈注釈</div>
       <input
@@ -428,15 +428,15 @@
       <label class="bxi-block-form-required">※</label>
     </dt>
     <dd class="number bxi-block-form-dd">
-      <span>前</span>
+      <span class="bxi-block-form-number-unit-before">前</span>
       <input
         type="text"
         name="v[6]"
         value=""
         maxlength="9"
       />
-      <span>後</span>
-      <div>注釈注釈</div>
+      <span class="bxi-block-form-number-unit-after">後</span>
+      <div class="bxi-block-form-annotation">注釈注釈</div>
       <input
         type="hidden"
         name="t[6]"
@@ -475,14 +475,14 @@
       <label class="bxi-block-form-required">※</label>
     </dt>
     <dd class="text bxi-block-form-dd">
-      <span>前</span>
+      <span class="bxi-block-form-text-unit-before">前</span>
       <input
         type="text"
         name="v[7]"
         value=""
         maxlength="100"
       />
-      <span>後</span>
+      <span class="bxi-block-form-text-unit-after">後</span>
       <div class="bxi-block-form-annotation">注釈注釈</div>
       <input
         type="hidden"
@@ -539,7 +539,7 @@
         />
         項目2
       </label>
-      <div>注釈注釈</div>
+      <div class="bxi-block-form-annotation">注釈注釈</div>
       <input
         type="hidden"
         name="t[8]"
@@ -638,7 +638,7 @@
         <option value="項目1">項目1</option>
         <option value="項目2">項目2</option>
       </select>
-      <div>注釈注釈</div>
+      <div class="bxi-block-form-annotation">注釈注釈</div>
       <input
         type="hidden"
         name="t[10]"
